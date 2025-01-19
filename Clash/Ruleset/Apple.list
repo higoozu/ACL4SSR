@@ -1,5 +1,5 @@
 # 内容：Apple
-# 数量：29条
+# 一般国内Apple肯定正常,不需要开代理
 DOMAIN,apple.comscoreresearch.com
 DOMAIN-SUFFIX,aaplimg.com
 DOMAIN-SUFFIX,akadns.net
@@ -26,13 +26,30 @@ DOMAIN,mask-h2.icloud.com
 DOMAIN,mask-t.apple-dns.net
 DOMAIN,mask.apple-dns.net
 DOMAIN,mask.icloud.com
+DOMAIN-KEYWORD,apple.com.akadns.net
+DOMAIN-KEYWORD,icloud.com.akadns.net
 IP-CIDR,17.0.0.0/8,no-resolve
 IP-CIDR,63.92.224.0/19,no-resolve
 IP-CIDR,65.199.22.0/23,no-resolve
-IP-CIDR,139.178.128.0/18,no-resolve
-IP-CIDR,144.178.0.0/19,no-resolve
-IP-CIDR,144.178.36.0/22,no-resolve
-IP-CIDR,144.178.48.0/20,no-resolve
 IP-CIDR,192.35.50.0/24,no-resolve
 IP-CIDR,198.183.17.0/24,no-resolve
 IP-CIDR,205.180.175.0/24,no-resolve
+IP-CIDR,139.178.128.0/18,no-resolve
+IP-CIDR,139.178.128.0/23,no-resolve
+IP-CIDR,139.178.130.0/23,no-resolve
+IP-CIDR,139.178.142.0/24,no-resolve
+IP-CIDR,139.178.143.0/24,no-resolve
+IP-CIDR,139.178.170.0/23,no-resolve
+IP-CIDR,139.178.172.0/23,no-resolve
+IP-CIDR,139.178.182.0/24,no-resolve
+IP-CIDR,139.178.183.0/24,no-resolve
+IP-CIDR,144.178.0.0/18,no-resolve
+IP-CIDR,144.178.0.0/19,no-resolve
+IP-CIDR,144.178.11.0/24,no-resolve
+IP-CIDR,144.178.16.0/22,no-resolve
+IP-CIDR,144.178.33.0/24,no-resolve
+IP-CIDR,144.178.36.0/24,no-resolve
+IP-CIDR,144.178.37.0/24,no-resolve
+IP-CIDR,144.178.48.0/21,no-resolve
+IP-CIDR,144.178.55.0/24,no-resolve
+IP-CIDR,144.178.56.0/21,no-resolve
