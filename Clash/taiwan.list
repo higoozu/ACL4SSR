@@ -15,3 +15,8 @@ DOMAIN-SUFFIX,kkbox.com.tw
 
 # 内容：Dcard
 DOMAIN-SUFFIX,dcard.tw
+DOMAIN-SUFFIX,myppt.cc
+DOMAIN-SUFFIX,lurl.cc
+
+# 所有以.tw结尾
+# DOMAIN-SUFFIX,tw
