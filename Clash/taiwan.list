@@ -17,6 +17,9 @@ DOMAIN-SUFFIX,kkbox.com.tw
 DOMAIN-SUFFIX,dcard.tw
 DOMAIN-SUFFIX,myppt.cc
 DOMAIN-SUFFIX,lurl.cc
+DOMAIN-SUFFIX,mork.ro
+DOMAIN-SUFFIX,imgus.cc
+DOMAIN-SUFFIX,iiil.io
 
 # 所有以.tw结尾
 # DOMAIN-SUFFIX,tw
