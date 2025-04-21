@@ -698,7 +698,3 @@ DOMAIN-SUFFIX,zhimg.com
 DOMAIN-SUFFIX,zhipin.com
 DOMAIN-SUFFIX,zhongsou.com
 DOMAIN-SUFFIX,zhuihd.com
-
-# 补充
-# 医疗服务
-DOMAIN-SUFFIX,mingxuan.store
