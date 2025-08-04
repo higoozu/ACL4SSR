@@ -21,5 +21,13 @@ DOMAIN-SUFFIX,mork.ro
 DOMAIN-SUFFIX,imgus.cc
 DOMAIN-SUFFIX,iiil.io
 
+# LineTV
+USER-AGENT,LINE%20TV*
+USER-AGENT,LINE*
+DOMAIN,d3c7rimkq79yfu.cloudfront.net
+DOMAIN-SUFFIX,d3c7rimkq79yfu.cloudfront.net
+DOMAIN-SUFFIX,linetv.tw
+DOMAIN-SUFFIX,profile.line-scdn.net
+
 # 所有以.tw结尾
 # DOMAIN-SUFFIX,tw
