@@ -29,5 +29,9 @@ DOMAIN-SUFFIX,d3c7rimkq79yfu.cloudfront.net
 DOMAIN-SUFFIX,linetv.tw
 DOMAIN-SUFFIX,profile.line-scdn.net
 
+# Ptsplus公視
+DOMAIN-SUFFIX,ptsplus.tv
+DOMAIN-SUFFIX,hinet.net
+
 # 所有以.tw结尾
-# DOMAIN-SUFFIX,tw
+DOMAIN-SUFFIX,tw
