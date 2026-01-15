@@ -153,7 +153,7 @@ proxy-groups:
       - 🇸🇬 狮城节点
       - 🇯🇵 日本节点
       - 🚀 手动切换
-  - name: 📢 谷歌 FCM
+  - name: 📢 谷歌FCM
     type: select
     proxies:
       - DIRECT
@@ -219,6 +219,12 @@ proxy-groups:
       - DIRECT
       - 🚀 节点选择
       - ♻️ 自动选择
+  - name: 🛜 局域网
+    type: select
+    proxies:
+      - DIRECT
+      - 🚀 节点选择
+      - ♻️ 自动选择
   - name: 🛑 广告拦截
     type: select
     proxies:
@@ -252,32 +258,32 @@ proxy-groups:
   - name: 🇯🇵 日本节点
     type: url-test
     include-all: true
-    filter: "(日本 | 川日 | 东京 | 大阪 | 泉日 | 埼玉 | 沪日 | 深日|JP|Japan)"
+    filter: "(日本|川日|东京|大阪|泉日|埼玉|沪日|深日|JP|Japan)"
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
   - name: 🇺🇲 美国节点
     type: select
     include-all: true
-    filter: "(美 | 波特兰 | 达拉斯 | 俄勒冈 | 凤凰城 | 费利蒙 | 硅谷 | 拉斯维加斯 | 洛杉矶 | 圣何塞 | 圣克拉拉 | 西雅图 | 芝加哥|US|United States)"
+    filter: "(美|波特兰|达拉斯|俄勒冈|凤凰城|费利蒙|硅谷|拉斯维加斯|洛杉矶|圣何塞|圣克拉拉|西雅图|芝加哥|US|United States)"
   - name: 🇸🇬 狮城节点
     type: url-test
     include-all: true
-    filter: "(新加坡 | 坡 | 狮城|SG|Singapore)"
+    filter: "(新加坡|坡|狮城|SG|Singapore)"
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
   - name: 🇹🇼 台湾节点
     type: url-test
     include-all: true
-    filter: "(台 | 新北 | 彰化|TW|Taiwan)"
+    filter: "(台|新北|彰化|TW|Taiwan)"
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
   - name: 🇰🇷 韩国节点
     type: url-test
     include-all: true
-    filter: "(KR|KO|Korea|KOR|首尔 | 韩 | 韓)"
+    filter: "(KR|KO|Korea|KOR|首尔|韩|韓)"
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
@@ -288,25 +294,25 @@ proxy-groups:
       - 🇯🇵 日本奈飞
       - 🇭🇰 香港奈飞
     include-all: true
-    filter: "(NF|奈飞 | 解锁|Netflix|NETFLIX|Media|\\[M\\])"
+    filter: "(NF|奈飞|解锁|Netflix|NETFLIX|Media|\\[M\\])"
   - name: 🇸🇬 新加坡奈飞
     type: url-test
     include-all: true
-    filter: "(?=.*?(新加坡 | 坡 | 狮城|SG|Singapore|DNS))(?=.*?(NF|奈飞 | 解锁|Netflix|NETFLIX|Media|\\[M\\]))"
+    filter: "(?=.*?(新加坡|坡|狮城|SG|Singapore|DNS))(?=.*?(NF|奈飞|解锁|Netflix|NETFLIX|Media|\\[M\\]))"
     url: https://www.netflix.com/nl/title/81215567
     interval: 300
     tolerance: 50
   - name: 🇯🇵 日本奈飞
     type: url-test
     include-all: true
-    filter: "(?=.*?(日本 | 川日 | 东京 | 大阪 | 泉日 | 埼玉 | 沪日 | 深日|JP|Japan))(?=.*?(NF|奈飞 | 解锁|Netflix|NETFLIX|Media|\\[M\\]))"
+    filter: "(?=.*?(日本|川日|东京|大阪|泉日|埼玉|沪日|深日|JP|Japan))(?=.*?(NF|奈飞|解锁|Netflix|NETFLIX|Media|\\[M\\]))"
     url: https://www.netflix.com/nl/title/81215567
     interval: 300
     tolerance: 50
   - name: 🇭🇰 香港奈飞
     type: url-test
     include-all: true
-    filter: "(?=.*?(港|HK|hk|Hong Kong|HongKong|hongkong))(?=.*?(NF|奈飞 | 解锁|Netflix|NETFLIX|Media|\\[M\\]))"
+    filter: "(?=.*?(港|HK|hk|Hong Kong|HongKong|hongkong))(?=.*?(NF|奈飞|解锁|Netflix|NETFLIX|Media|\\[M\\]))"
     url: https://www.netflix.com/nl/title/81215567
     interval: 300
     tolerance: 50
