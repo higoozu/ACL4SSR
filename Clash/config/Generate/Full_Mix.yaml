@@ -12,13 +12,13 @@ proxy-groups:
       - 🚀 手动切换
       - 🔩 自建
       - DIRECT
-  - name: 🔩 自建
-    type: select
-    include-all: true
-    filter: "\[S\]$"
   - name: 🚀 手动切换
     type: select
     include-all: true
+  - name: 🔩 自建
+    type: select
+    include-all: true
+    filter: '\[diy\]$'
   - name: ♻️ 自动选择
     type: url-test
     include-all: true
