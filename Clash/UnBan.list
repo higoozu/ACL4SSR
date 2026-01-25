@@ -7,8 +7,9 @@ DOMAIN-SUFFIX,ol.epicgames.com
 DOMAIN-SUFFIX,dizhensubao.getui.com
 
 # Google
-DOMAIN,dl.google.com
-DOMAIN-SUFFIX,googletraveladservices.com
+# 访问不了
+# DOMAIN,dl.google.com
+# DOMAIN-SUFFIX,googletraveladservices.com
 
 # Mozilla
 DOMAIN-SUFFIX,tracking-protection.cdn.mozilla.net
